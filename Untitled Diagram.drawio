@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T08:20:57.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5Bveww1BkWm3sNzQfS1s" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T08:26:55.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RwgM5QOHYLnpGYA0wzG9" version="21.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
             <mxPoint x="400" y="1460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Db3x2-mIG0SqWnb48fhS-35" value="RESFRIAMENTO" style="shape=mxgraph.pid.heat_exchangers.heater;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-35" value="RESFRIAMENTO" style="shape=mxgraph.pid.heat_exchangers.heater;html=1;pointerEvents=1;align=right;verticalLabelPosition=middle;verticalAlign=middle;dashed=0;labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="257.5" y="1530" width="115" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Db3x2-mIG0SqWnb48fhS-36" value="CALOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -167,6 +167,27 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="1510" as="sourcePoint" />
             <mxPoint x="400" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-42" value="TIJOLO CERÂMICO" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;arrowWidth=0.36666666666666664;arrowSize=0.4666666666666667;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1650" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-43" value="RESÍDUOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-42" target="Db3x2-mIG0SqWnb48fhS-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1860" as="sourcePoint" />
+            <mxPoint x="400" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-43" target="Db3x2-mIG0SqWnb48fhS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1560" as="sourcePoint" />
+            <mxPoint x="750" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="260" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
