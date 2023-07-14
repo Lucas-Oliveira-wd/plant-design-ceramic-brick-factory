@@ -1,26 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T07:05:09.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wLoPt6qA0-TPqH_PTCCS" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T07:44:36.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="216bHsYUTkcbub5Q_mBH" version="21.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="Db3x2-mIG0SqWnb48fhS-3" value="CAIXÂO DOSADOR" style="shape=mxgraph.pid.mixers.kneader;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-3" value="DOSAGEM" style="shape=mxgraph.pid.mixers.kneader;html=1;pointerEvents=1;align=right;verticalLabelPosition=middle;verticalAlign=middle;dashed=0;labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="70" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Db3x2-mIG0SqWnb48fhS-4" value="SEPARADOR ELETROIMÃ" style="verticalLabelPosition=bottom;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.separators.separator_(permanent_magnet)2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="275" y="250" width="80" height="120" as="geometry" />
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-4" value="SEPARAÇÃO" style="verticalLabelPosition=middle;align=right;dashed=0;html=1;verticalAlign=middle;shape=mxgraph.pid.separators.separator_(permanent_magnet)2;labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275" y="350" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Db3x2-mIG0SqWnb48fhS-6" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;arrowWidth=0.36;arrowSize=0.4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="30" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Db3x2-mIG0SqWnb48fhS-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.013;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-4" target="Db3x2-mIG0SqWnb48fhS-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="340" as="sourcePoint" />
-            <mxPoint x="460" y="290" as="targetPoint" />
+            <mxPoint x="350" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Db3x2-mIG0SqWnb48fhS-8" value="RESÍDUOS METÀLICOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-9" value="MOAGEM" style="verticalLabelPosition=middle;align=right;dashed=0;html=1;verticalAlign=middle;shape=mxgraph.pid.crushers_grinding.crushing,_grinding_machine;labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-3" target="Db3x2-mIG0SqWnb48fhS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.513;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-9" target="Db3x2-mIG0SqWnb48fhS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-12" value="DESINTEGRAÇÃO" style="verticalLabelPosition=middle;align=right;dashed=0;html=1;verticalAlign=middle;shape=mxgraph.pid.crushers_grinding.mill,_pulverizer_(hammer);labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-4" target="Db3x2-mIG0SqWnb48fhS-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="510" as="sourcePoint" />
+            <mxPoint x="360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-14" value="MISTURA" style="shape=mxgraph.pid.feeders.proportional_feeder_(metering);html=1;pointerEvents=1;align=left;verticalLabelPosition=middle;verticalAlign=middle;dashed=0;labelPosition=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="640" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-15" value="ÁGUA" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;width=30;endSize=9;endWidth=36;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="650" as="sourcePoint" />
+            <mxPoint x="165.00000000000009" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-12" target="Db3x2-mIG0SqWnb48fhS-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-17" value="LAMINAÇÃO" style="verticalLabelPosition=middle;align=right;dashed=0;html=1;verticalAlign=middle;shape=mxgraph.pid.piping.duplex_strainer;labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="740" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.49;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="710" as="sourcePoint" />
+            <mxPoint x="312" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-19" value="EXTRUSÂO" style="shape=mxgraph.pid.compressors_-_iso.compressor_(ejector);html=1;pointerEvents=1;align=right;verticalLabelPosition=middle;verticalAlign=middle;dashed=0;labelPosition=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="860" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Db3x2-mIG0SqWnb48fhS-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Db3x2-mIG0SqWnb48fhS-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="810" as="sourcePoint" />
+            <mxPoint x="315" y="860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
